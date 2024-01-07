@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>E3</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <style>
+  *{
+   box-sizing: border-box;
+   padding: 0px;
+   margin:0px;
+  }
+  input{
+   margin-bottom:20px;
+  }
+
+  
+ </style>
+</head>
+<body>
+
+ <!-- Button trigger modal -->
+<div class="button" style="margin:300px 0px 0px 700px">
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</button>
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Log in</button>
+</div>
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header bg-info d-flex justify-content-center">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">Sign up</h1>
+     </div>
+
+     <div class="modal-body">
+      <div class="mb-3">
+       <label for="name" class="form-label">Username</label>
+       <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Username">
+       <label for="Password" class="form-label">Password</label>
+       <input type="Password" class="form-control" id="exampleFormControlInput2" placeholder="Enter your Password">
+       <label for="Confirm Password" class="form-label">Confirm Password</label>
+       <input type="Confirm Password" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Confirm Password">
+       <label for="Email Id" class="form-label">Email Id</label>
+       <input type="Email Id" class="form-control" id="exampleFormControlInput2" placeholder="Enter your Email Id">
+       <label for="Phone Number" class="form-label">Phone Number</label>
+       <input type="Phone Number" class="form-control" id="exampleFormControlInput2" placeholder="Enter your Phone Number">
+       </div>
+       <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+
+     </div>
+     <div class="modal-footer d-flex justify-content-center">
+       <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Register</button>
+       <button type="button" class="btn btn-secondary">Login Now!</button>
+     </div>
+   </div>
+ </div>
+</div>
+ 
+
+<!-- Modal 2-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header bg-success d-flex justify-content-center">
+       <h1 class="modal-title fs-5" id="exampleModal2Label" style="color:white">Log in</h1>
+     </div>
+
+     <div class="modal-body">
+      <div class="mb-3">
+       <label for="name" class="form-label">Username</label>
+       <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Username">
+       <label for="Password" class="form-label">Password</label>
+       <input type="Password" class="form-control" id="exampleFormControlInput2" placeholder="Enter your Password">
+       </div>
+       <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+      </div>
+
+     </div>
+     <div class="modal-footer d-flex justify-content-center">
+       <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
+       <button type="button" class="btn btn-secondary">Signup Now!</button>
+     </div>
+   </div>
+ </div>
+</div>
+
+
+
+
+</body>
+</html>
